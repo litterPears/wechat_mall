@@ -1,0 +1,37 @@
+/* components/nav/nav.wxss */
+.navList{
+  width:100%;
+  min-height:140rpx;
+  padding:0 0 30rpx 0;
+  padding-top:110rpx;
+  background:-moz-linear-gradient(top,#fff,#f6f6f6);/*Mozilla*/
+  background:-webkit-linear-gradient(top,#fff,#f6f6f6);/*new gradient for Webkit*/
+  background:-o-linear-gradient(top,#fff,#f6f6f6); /*Opera11*/
+}
+.navUls{
+  height:auto;
+  padding:0 10rpx;
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.navLi{
+  width:25%;
+  margin-bottom:10rpx;
+  height:auto;
+}
+.span{
+  width:80rpx;
+  height:80rpx;
+  margin:20rpx auto 0;
+  background:#f00;
+  border-radius:50%;
+}
+.spanText{
+  height:50rpx;
+  line-height:50rpx;
+  font-size:25rpx;
+  text-align:center;
+  color:#666666;
+}

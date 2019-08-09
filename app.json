@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/index",
+    "pages/car/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F32525",
+    "navigationBarTitleText": "河南融商智选",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#F6F6F6",
+    "backgroundColorTop":"#fff",
+    "backgroundColorBottom":"#fff",
+    "onReachBottomDistance":50
+  },
+  "tabBar":{
+    "color":"#666666",
+    "selectedColor":"#F32525",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"static/images/iconfont/index_no.png",
+        "selectedIconPath":"static/images/iconfont/index.png",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/shop/index",
+        "iconPath":"static/images/iconfont/home_no.png",
+        "selectedIconPath": "static/images/iconfont/home.png",
+        "text": "全部商品"
+      },
+      {
+        "pagePath":"pages/car/index",
+        "iconPath":"static/images/iconfont/car_no.png",
+        "selectedIconPath": "static/images/iconfont/car.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath":"pages/me/index",
+        "iconPath":"static/images/iconfont/me_no.png",
+        "selectedIconPath": "static/images/iconfont/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,29 @@
+<!--components/nav/nav.wxml-->
+<view class="navList">
+  <view class="navUls">
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+    <view class="navLi">
+      <view class="span"></view>
+      <view class="spanText">拍照手机</view>
+    </view>
+  </view>
+</view>

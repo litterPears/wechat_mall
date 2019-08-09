@@ -1,0 +1,76 @@
+<!--components/scroll/scroll.wxml-->
+<view class="scrollcountenter">
+  <view class="scrollTitle">今日推荐</view>
+  <view class="scrollMain">
+    <view class="scrollLi">
+        <view class="spanlis"></view>
+        <view class="textWarp liText1">华为 NOVA 5 Pro 全网通华为 NOVA 5 Pro 全网通华为 NOVA 5 Pro 全网通</view>
+        <view class="textWarp liText2">卖点，最多一行，超出处理卖点，最多一行，超出处理</view>
+        <view class="payMoney">
+          <view class="pays">
+            <text class="payd">￥</text>
+            <text>10000000.00</text>
+          </view>
+          <view class="addImg" bindtap="addgoods">
+            <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
+          </view>
+        </view>
+    </view>
+    <view class="scrollLi">
+        <view class="spanlis"></view>
+        <view class="textWarp liText1">11111fasdfdsfasdfasdfererwerwe</view>
+        <view class="textWarp liText2">11111ferwer2342324242342432342</view>
+        <view class="payMoney">
+          <view class="pays">
+            <text class="payd">￥</text>
+            <text>10000000.00</text>
+          </view>
+          <view class="addImg">
+            <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
+          </view>
+        </view>
+    </view>
+    <view class="scrollLi">
+        <view class="spanlis"></view>
+        <view class="textWarp liText1">11111fasdfdsfasdfasdfererwerwe</view>
+        <view class="textWarp liText2">11111ferwer2342324242342432342</view>
+        <view class="payMoney">
+          <view class="pays">
+            <text class="payd">￥</text>
+            <text>10000000.00</text>
+          </view>
+          <view class="addImg">
+            <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
+          </view>
+        </view>
+    </view>
+    <view class="scrollLi">
+        <view class="spanlis"></view>
+        <view class="textWarp liText1">11111fasdfdsfasdfasdfererwerwe</view>
+        <view class="textWarp liText2">11111ferwer2342324242342432342</view>
+        <view class="payMoney">
+          <view class="pays">
+            <text class="payd">￥</text>
+            <text>10000000.00</text>
+          </view>
+          <view class="addImg">
+            <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
+          </view>
+        </view>
+    </view>
+    <view class="scrollLi">
+        <view class="spanlis"></view>
+        <view class="textWarp liText1">11111fasdfdsfasdfasdfererwerwe</view>
+        <view class="textWarp liText2">11111ferwer2342324242342432342</view>
+        <view class="payMoney">
+          <view class="pays">
+            <text class="payd">￥</text>
+            <text>10000000.00</text>
+          </view>
+          <view class="addImg">
+            <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

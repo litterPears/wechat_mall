@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="shopMain">
+    <image class="banner_bg" src="../../static/images/imgList/banner_bg.png"/>
+    <!-- 首页头部 -->
+    <view class="shopTop">
+      <view class="shopSumbits">
+        <!-- 搜索部分 -->
+        <view class="submitdom">
+          <image class="iconsub" src="../../static/images/iconfont/sumbit.png"/>
+          <input class="subInput" value="" type="text" placeholder="搜索商品" placeholder-class="placeClass"/>
+        </view>
+        <!-- 轮播部分 -->
+        <view class="shopSwiper">
+          <components-swiper></components-swiper>
+        </view>
+      </view>
+    </view>
+    <!-- 下方显示部分 -->
+    <view class="shopfooter">
+      <!-- 导航 -->
+      <view class="componentNav">
+        <components-nav></components-nav>
+      </view>
+      <!-- 下方的滚动部分 -->
+      <view class="scrollDom">
+        <components-scroll></components-scroll>
+      </view>
+      <!-- 浮动图标 -->
+      <view class="flexIconfont">
+        <view class="flexdom flexShow"></view>
+        <view class="flexdom"></view>
+      </view>
+      <!-- 提示 -->
+      <components-popup show="{{showPopup}}" bind:showTap="popupTaps"></components-popup>
+    </view>
+  </view>
+</view>

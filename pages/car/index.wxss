@@ -1,0 +1,43 @@
+/* pages/car/index.wxss */
+.sectionCat{
+  padding:0 30rpx;
+  height:auto;
+}
+.checkboxGroup{
+  width:100%;
+  hi
+}
+.checkLabel{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:300rpx;
+  width:100%;
+}
+.checkboxs{
+  width: 32rpx;
+  height: 32rpx;
+  line-height:32rpx;
+  text-align:center;
+}
+checkbox .wx-checkbox-input{
+  border-radius:50%;
+  height: 26rpx;
+  width: 26rpx;
+  margin-top: -4rpx;
+  border: 1rpx solid orange;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  background-color: orange;
+  border: 1rpx solid orange;
+  border-radius:50%;
+}

@@ -1,0 +1,23 @@
+<!--components/swiper/swiper.wxml-->
+<view class="swiperContent">
+  <swiper class="swiperWorks"
+  autoplay="{{options.autoplay}}"
+  circular="{{options.circular}}"
+  bindchange="swiperChange">
+    <block wx:for="{{imageList}}" wx:for-item="items" wx:key="index">
+      <swiper-item class="swiper-item">
+        <navigator class="navigator" url="/page/detail/index">
+          <image class="images" src="{{items.image}}"/>
+          <view class="itemTextbg" wx:if="{{items.text != ''}}"></view>
+          <view class="itemText" wx:if="{{items.text != ''}}">{{items.text}}</view>
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--重置小圆点的样式  -->
+  <view class="dots">  
+      <block wx:for="{{imageList}}" wx:for-index="number" wx:key="number">  
+          <view class="dot{{number == currentSwiper ? ' active' : ''}}"></view>  
+      </block>  
+  </view> 
+</view>

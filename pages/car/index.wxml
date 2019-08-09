@@ -1,0 +1,14 @@
+<!--pages/car/index.wxml-->
+<view class="sectionCat">
+    <checkbox-group class="checkboxGroup" bindchange="checkboxChange">
+        <label class='checkLabel'>
+          <checkbox value="1" class="checkboxs" checked="true"></checkbox>
+        </label>
+        <!-- <label>
+          <checkbox value="2" class="checkboxs" checked="true"></checkbox>
+        </label>
+        <label>
+          <checkbox value="3" class="checkboxs" checked="true"></checkbox>
+        </label> -->
+    </checkbox-group>
+</view>

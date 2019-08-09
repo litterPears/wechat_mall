@@ -1,0 +1,89 @@
+/* components/swiper/swiper.wxss */
+.swiperContent{
+  width:100%;
+  height:280rpx;
+  background:#F32525;
+  border-radius:16rpx;
+  position: relative; 
+  top:0;
+  left:0;
+}
+.swiperWorks{
+  width:100%;
+  height:100%;
+  border-radius:16rpx;
+}
+.swiper-item{
+  width:100%;
+  height:100%;
+  border-radius:16rpx;
+}
+.navigator{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow:unset;
+  border-radius:16rpx;
+}
+.images{
+  width:100%;
+  border-radius:16rpx;
+}
+.itemTextbg{
+  width:100%;
+  height:65rpx;
+  opacity:0.3;
+  filter:alpha(opacity = 30);
+  background:#000;
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index:9;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+.itemText{
+  width:100%;
+  height:65rpx;
+  line-height:65rpx;
+  font-size:24rpx;
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index:10;
+  color:#fff;
+  text-indent:20rpx;
+  word-wrap:no-warp;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+/*用来包裹所有的小圆点  */
+.dots{  
+  width:300rpx;
+  height:4rpx; 
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items:center;
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+  z-index:5;
+}  
+/*未选中时的小圆点样式 */
+.dot{  
+  width: 14rpx;  
+  height: 4rpx;
+  margin-right:14rpx;   
+  background-color: #fff;
+}  
+/*选中以后的小圆点样式  */
+.active{ 
+  width: 14rpx;  
+  height: 4rpx; 
+  background-color:#F32525;
+} 
+
