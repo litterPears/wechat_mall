@@ -5,7 +5,6 @@
 }
 .checkboxGroup{
   width:100%;
-  hi
 }
 .checkLabel{
   display:flex;

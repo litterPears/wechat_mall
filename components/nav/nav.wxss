@@ -3,10 +3,11 @@
   width:100%;
   min-height:140rpx;
   padding:0 0 30rpx 0;
-  padding-top:110rpx;
+  padding-top:115rpx;
   background:-moz-linear-gradient(top,#fff,#f6f6f6);/*Mozilla*/
   background:-webkit-linear-gradient(top,#fff,#f6f6f6);/*new gradient for Webkit*/
   background:-o-linear-gradient(top,#fff,#f6f6f6); /*Opera11*/
+  overflow:hidden;
 }
 .navUls{
   height:auto;

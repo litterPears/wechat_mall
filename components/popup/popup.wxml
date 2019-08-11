@@ -1,7 +1,7 @@
 <!--components/popup/popup.wxml-->
-<view class="popup" wx:if="{{show}}">
+<view class="popup" wx:if="{{popShow || show}}">
     <view class="popupMian">
         <text class="tipsDom tipsback"></text>
-        <text class="popuptips tipsback">已加入购物车</text>
+        <text class="popuptips tipsback">{{popText}}</text>
     </view>
 </view>

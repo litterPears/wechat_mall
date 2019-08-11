@@ -25,7 +25,7 @@
             <text class="payd">￥</text>
             <text>10000000.00</text>
           </view>
-          <view class="addImg">
+          <view class="addImg" bindtap="addgoods">
             <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
           </view>
         </view>
@@ -39,7 +39,7 @@
             <text class="payd">￥</text>
             <text>10000000.00</text>
           </view>
-          <view class="addImg">
+          <view class="addImg" bindtap="addgoods">
             <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
           </view>
         </view>
@@ -53,7 +53,7 @@
             <text class="payd">￥</text>
             <text>10000000.00</text>
           </view>
-          <view class="addImg">
+          <view class="addImg" bindtap="addgoods">
             <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
           </view>
         </view>
@@ -67,7 +67,7 @@
             <text class="payd">￥</text>
             <text>10000000.00</text>
           </view>
-          <view class="addImg">
+          <view class="addImg" bindtap="addgoods">
             <image class="addgoodicon" src="../../static/images/iconfont/good.png"/>
           </view>
         </view>

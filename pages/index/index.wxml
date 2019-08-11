@@ -24,15 +24,15 @@
       </view>
       <!-- 下方的滚动部分 -->
       <view class="scrollDom">
-        <components-scroll></components-scroll>
+        <components-scroll bind:showTap="popupTaps"></components-scroll>
       </view>
       <!-- 浮动图标 -->
       <view class="flexIconfont">
         <view class="flexdom flexShow"></view>
-        <view class="flexdom"></view>
+        <view class="flexdom" bindtap="goBackTops"></view>
       </view>
       <!-- 提示 -->
-      <components-popup show="{{showPopup}}" bind:showTap="popupTaps"></components-popup>
+      <components-popup popShow="{{showPopup}}"></components-popup>
     </view>
   </view>
 </view>

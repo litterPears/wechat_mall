@@ -4,20 +4,13 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    show:{
+    popShow:{
       type:Boolean,
       value:false
-      // observers(newValue){
-      //   console.log(newValue);
-      //   if (newValue){
-      //     let timerOut = setTimeout(() => {
-      //       this.setData({
-      //         show: false
-      //       });
-      //       clearTimeout(timerOut);
-      //     }, 2000);
-      //   }
-      // }
+    },
+    popText:{
+      type:String,
+      value:"已加入购物车"
     }
   },
 
@@ -25,9 +18,21 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+  
   },
 
+  observers:{
+    "popShow"(value){
+      if(value){
+        let timerOut = setTimeout(() => {
+          this.setData({
+            popShow: false
+          });
+          clearTimeout(timerOut);
+        }, 2500);
+      }
+    }
+  },
   /**
    * 组件的方法列表
    */

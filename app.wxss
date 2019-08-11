@@ -1,3 +1,4 @@
+@import "static/css/common.wxss";
 /**app.wxss**/
 .container {
   height: 100%;

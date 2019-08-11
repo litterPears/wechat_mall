@@ -19,8 +19,9 @@ Component({
    */
   methods:{
     addgoods(){
-      console.log("11");
-      this.triggerEvent("showTap",true);
+      this.triggerEvent("showTap",{
+        passValue:true
+      });
     }
   }
 })
